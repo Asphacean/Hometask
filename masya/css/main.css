@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.center button {
+  font-family: 'Comfortaa', cursive;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: 800;
+  color: darkgrey;
+  border: solid indianred 12px;
+  border-radius: 32px;
+  background-color: blanchedalmond;
+}
+.center button:hover {
+  transition: 0.3s;
+  color: transparent;
+  background: url(https://demo.nasra.li/masya/img/photo.jpg);
+  background-size: 100%;
+}
